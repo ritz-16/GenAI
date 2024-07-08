@@ -1,0 +1,5 @@
+#!/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv/bin/python3.12
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))

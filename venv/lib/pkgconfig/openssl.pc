@@ -1,0 +1,9 @@
+prefix=/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.0.14
+Requires: libssl libcrypto

@@ -1,0 +1,13 @@
+prefix=/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv
+exec_prefix=/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv
+libdir=/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv/lib
+sharedlibdir=/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv/lib
+includedir=/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

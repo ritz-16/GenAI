@@ -1,0 +1,5 @@
+#!/Users/ritamghosh/Desktop/UNI/STUDIES/Summer_2024/Gemini_LLM/venv/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
